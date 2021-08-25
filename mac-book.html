@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+        <div class="container ">
+            <div class="row mt-5">
+                
+                <!-- first conumn -->
+              <div class="col-5">
+                <img class="img-fluid w-75"  src="images/mac.png" alt="">
+              </div>
+              <!-- second conumn -->
+              <div class="col-6">
+                <h1 class="fs-1">Customize your Blue 24-inch iMac with Aplle M1 chip</h1>
+                <p>Apple M1 chip with 8-core cpu with 4 performance cores and 4 efficiency cores, 7-core GPU and 16-core neural Engine 8GB undefined menory 256GB ssd sortage Two thunderbolt / USB 4 ports Magic Mouse Magic keyboard -us English.</p>
+                <br>
+                <!-- button for memory-->
+                <h4 class="fs-6 fw-bold">Memory</h4>
+                <button id="first-memory-price" type="button" class="btn btn-outline-dark">8 GB unified Memory</button>
+                <button id="second-memory-price" type="button" class="btn btn-outline-dark">16 GB unified Memory</button>
+                <br>
+
+                <!-- button for storage -->
+                <h4 class="fs-6 fw-bold mt-3">Storage</h4>
+                <button id="first-storage-price" type="button" class="btn btn-outline-dark">256 GB SSD storage</button>
+                <button id="second-storage-price" type="button" class="btn btn-outline-dark">512 GB SSD storage</button>
+                <button id="third-storage-price" type="button" class="btn btn-outline-dark">1TB SSD storage</button>
+
+                <!-- button for delivery -->
+                <h4 class="fs-6 fw-bold mt-3">Choose your delivery potion</h4>
+                <button id="free-delivery" type="button" class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+                <button id="paid-delivery" type="button" class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+                <br>
+                <br>
+
+                <!-- price table -->
+                <div class="container ">
+                    <div class="row mt- 4">
+                      <div class="col-7">
+                        <table class="table">
+                            <tbody>
+                              <tr>
+                                <td colspan="2" class="fw-bold">Best Price</td>
+                                <td class="fw-bold">$<span id="best-price">1299</span></td>
+                              </tr>
+
+                              <tr>
+                                <td colspan="2"  class="fw-bold">Extra Memory Cost</td>
+                                <td class="fw-bold">$<span id="memory-cost">0</span></td>
+                              </tr>
+
+                              <tr>
+                                <td colspan="2" class="fw-bold">Extra Storage Cost</td>
+                                <td class="fw-bold">$<span id="storage-cost">0</span></td>
+                              </tr>
+
+                              <tr class="border-bottom-0">
+                                <td colspan="2" class="fw-bold">Delivery Charge</td>
+                                <td class="fw-bold">$<span id="delivery-charge">0</span></td>
+                              </tr>
+
+                              <tr>
+                                <td colspan="2" class="fw-bold">Total Price</td>
+                                <td class="fw-bold">$<span id="total-price">1299</span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                           <!-- promo code -->
+                           <h5>Add promo code</h5>
+                 <div class="input-group mb-3">
+                     
+                    <input id="promo-code" type="text" class="form-control" >
+                    <button class="btn btn-danger" type="button" id="promo-btn">Aplly</button>
+                  </div>
+                  
+                    </div>
+                      
+                    </div>
+                  </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+          <hr class="w-75 m-auto">
+          <h1 class="text-center">Total:$<span id="grand-total">1299</span></h1>
+    </section>
+    <script src="link.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
